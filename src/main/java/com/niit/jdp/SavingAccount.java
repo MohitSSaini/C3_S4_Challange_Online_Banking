@@ -8,4 +8,25 @@ package com.niit.jdp;
 public class SavingAccount extends BankAccount {
     private double amount;
     
+    public SavingAccount ( ) {
+    }
+    
+    public SavingAccount ( String accountName ,
+                           long accountNumber ,
+                           double availableBalance ,
+                           String openingDate ,
+                           String modeOfOperation ,
+                           String internetBanking ,
+                           double interestRate ,
+                           double totalBalance ) {
+        super ( accountName ,
+                accountNumber ,
+                availableBalance ,
+                openingDate ,
+                modeOfOperation ,
+                internetBanking ,
+                interestRate ,
+                totalBalance );
+    }
+    
 }
