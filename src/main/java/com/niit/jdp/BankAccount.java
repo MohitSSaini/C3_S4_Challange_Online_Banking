@@ -15,5 +15,24 @@ public class BankAccount {
     private double interestRate;
     private double totalBalance;
     
+    public BankAccount ( ) {
+    }
     
+    public BankAccount ( String accountName ,
+                         long accountNumber ,
+                         double availableBalance ,
+                         String openingDate ,
+                         String modeOfOperation ,
+                         String internetBanking ,
+                         double interestRate ,
+                         double totalBalance ) {
+        this.accountName = accountName;
+        this.accountNumber = accountNumber;
+        this.availableBalance = availableBalance;
+        this.openingDate = openingDate;
+        this.modeOfOperation = modeOfOperation;
+        this.internetBanking = internetBanking;
+        this.interestRate = interestRate;
+        this.totalBalance = totalBalance;
+    }
 }
