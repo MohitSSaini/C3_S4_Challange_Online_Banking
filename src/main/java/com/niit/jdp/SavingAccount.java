@@ -40,4 +40,9 @@ public class SavingAccount extends BankAccount {
     public double getRetrieveBalance ( double totalBalance ) {
         return totalBalance;
     }
+    
+    public double getDebitBalance ( double totalBalance , double amount ) {
+        return totalBalance - amount;
+    }
+    
 }
