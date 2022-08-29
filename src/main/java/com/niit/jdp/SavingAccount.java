@@ -45,4 +45,7 @@ public class SavingAccount extends BankAccount {
         return totalBalance - amount;
     }
     
+    public double getCreditBalance ( double totalBalance , double amount ) {
+        return totalBalance + amount;
+    }
 }
