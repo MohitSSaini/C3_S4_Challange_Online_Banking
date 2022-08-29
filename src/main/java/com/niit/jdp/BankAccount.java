@@ -99,4 +99,9 @@ public class BankAccount {
     public void setTotalBalance ( double totalBalance ) {
         this.totalBalance = totalBalance;
     }
+    
+    public double showAccountBalance ( ) {
+        System.out.println ( "availableBalance = " + getAvailableBalance ( ) );
+        return getAvailableBalance ( );
+    }
 }
