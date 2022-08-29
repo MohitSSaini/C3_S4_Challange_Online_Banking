@@ -36,4 +36,8 @@ public class SavingAccount extends BankAccount {
     public void setAmount ( double amount ) {
         this.amount = amount;
     }
+    
+    public double getRetrieveBalance ( double totalBalance ) {
+        return totalBalance;
+    }
 }
