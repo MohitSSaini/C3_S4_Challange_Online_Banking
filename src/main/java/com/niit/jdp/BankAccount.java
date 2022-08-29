@@ -35,4 +35,68 @@ public class BankAccount {
         this.interestRate = interestRate;
         this.totalBalance = totalBalance;
     }
+    
+    public String getAccountName ( ) {
+        return accountName;
+    }
+    
+    public void setAccountName ( String accountName ) {
+        this.accountName = accountName;
+    }
+    
+    public long getAccountNumber ( ) {
+        return accountNumber;
+    }
+    
+    public void setAccountNumber ( long accountNumber ) {
+        this.accountNumber = accountNumber;
+    }
+    
+    public double getAvailableBalance ( ) {
+        return availableBalance;
+    }
+    
+    public void setAvailableBalance ( double availableBalance ) {
+        this.availableBalance = availableBalance;
+    }
+    
+    public String getOpeningDate ( ) {
+        return openingDate;
+    }
+    
+    public void setOpeningDate ( String openingDate ) {
+        this.openingDate = openingDate;
+    }
+    
+    public String getModeOfOperation ( ) {
+        return modeOfOperation;
+    }
+    
+    public void setModeOfOperation ( String modeOfOperation ) {
+        this.modeOfOperation = modeOfOperation;
+    }
+    
+    public String getInternetBanking ( ) {
+        return internetBanking;
+    }
+    
+    public void setInternetBanking ( String internetBanking ) {
+        this.internetBanking = internetBanking;
+    }
+    
+    public double getInterestRate ( ) {
+        return interestRate;
+    }
+    
+    public void setInterestRate ( double interestRate ) {
+        this.interestRate = interestRate;
+    }
+    
+    public double getTotalBalance ( ) {
+        return totalBalance;
+    }
+    
+    public void setTotalBalance ( double totalBalance ) {
+        this.totalBalance = totalBalance;
+    }
 }
